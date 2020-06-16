@@ -40,6 +40,7 @@ case $1 in
 			echo "Some problems with file creation"
 			exit 25
 		fi
+		touch $2
 	;;
 
 	-h|--help)
